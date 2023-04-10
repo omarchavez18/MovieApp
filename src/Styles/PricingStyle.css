@@ -1,0 +1,172 @@
+.background-Color-Main {
+  width: 100vw;
+  height: auto;
+  background-color: #0c1e25;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-Color-secondary {
+  width: 100vw;
+  height: auto;
+  background-color: #fff;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+.Pricing-option1,
+.Pricing-option2,
+.Pricing-option3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #000d13;
+  color: white;
+  width: 100%;
+  border-radius: 16px;
+  padding-bottom: 4rem;
+}
+
+.light-Theme1,
+.light-Theme2,
+.light-Theme3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #02312b;
+  color: white;
+  width: 100%;
+  border-radius: 16px;
+  padding-bottom: 4rem;
+}
+h2 {
+  text-align: center;
+}
+.Price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Pricing-option1 h3,
+.Pricing-option2 h3,
+.Pricing-option3 h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.3rem;
+  color: #ee9b00;
+}
+
+.light-Theme1 h3,
+.light-Theme2 h3,
+.light-Theme3 h3 {
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.Pricing-option1 h2,
+.Pricing-option2 h2,
+.Pricing-option3 h2 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+}
+.light-Theme1 h2,
+.light-Theme2 h2,
+.light-Theme3 h2 {
+  color: #ff206e;
+  font-size: 3rem;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+}
+.Pricing-option1 span,
+.Pricing-option2 span,
+.Pricing-option3 span {
+  display: flex;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+#MonthlyYearly {
+  font-size: 1.4rem;
+}
+
+.light-Theme1 span,
+.light-Theme2 span,
+.light-Theme3 span {
+  display: flex;
+  font-size: 1rem;
+  margin: 0.5rem;
+  color: #fff;
+}
+#checkmark {
+  margin-right: 1rem;
+}
+
+#button1,
+#button2,
+#button3 {
+  width: 17rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #659664;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: auto auto 0;
+}
+button:hover {
+  background-color: #588157;
+  transition: 0.4s;
+}
+#darktheme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Pricing-yearly-darktheme {
+  position: relative;
+  margin: 1rem auto;
+  width: 4.5rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  background-color: #413e44;
+}
+.Pricing-monthly-darktheme {
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+.Pricing-monthly-light {
+  position: absolute;
+  background-color: #fff;
+  left: 32px;
+  top: 4px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+@media (max-width: 768px) {
+  .Pricing-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

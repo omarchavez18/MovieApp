@@ -1,11 +1,12 @@
 import axios from "axios";
 import React, { Fragment, useContext, useEffect, useState } from "react";
-import { Container } from "./Navbar";
+
 import "../Styles/Videos.css";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import NoImg from "./noImg.jpg";
 import TrailerMovies from "../Trailers/TrailerMovies";
+import { Container } from "../App";
 
 function Movies() {
   const { toggle, inputValue } = useContext(Container);

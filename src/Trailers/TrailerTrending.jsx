@@ -19,6 +19,7 @@ function TrailerTrending({ TrendsTitle, toggle }) {
     setTimeout(() => {
       handleSearch();
     }, 100);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [videoURL]);
   return (
     <Fragment>

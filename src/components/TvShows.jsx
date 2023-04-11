@@ -32,6 +32,7 @@ function TvShows() {
     setTimeout(() => {
       TvShows();
     }, 100);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [input]);
 
   const TvShowTitle = (shows) => {

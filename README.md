@@ -1,4 +1,10 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47d6c8c7-2cf7-4d06-8958-569365b46010/deploy-status)](https://app.netlify.com/sites/moviesapptmdb/deploys)
 # Getting Started with Create React App
+
+
+To see the MoviesApp webpage click in the next link
+[MoviesApp](https://moviesapptmdb.netlify.app)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

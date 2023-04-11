@@ -1,7 +1,8 @@
 import React, { Fragment, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { AiOutlineClose, AiFillPlayCircle } from "react-icons/ai";
-import { Container } from "./Navbar";
+import { Container } from "../App";
+
 import NoImg from "./noImg.jpg";
 import "../Styles/Videos.css";
 import TrailerTrending from "../Trailers/TrailerTrending";

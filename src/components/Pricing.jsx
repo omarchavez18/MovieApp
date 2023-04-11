@@ -1,7 +1,8 @@
 import React, { Fragment, useState } from "react";
 import { useContext } from "react";
 import { FcCheckmark } from "react-icons/fc";
-import { Container } from "./Navbar";
+import { Container } from "../App";
+
 import "../Styles/PricingStyle.css";
 
 function Pricing() {

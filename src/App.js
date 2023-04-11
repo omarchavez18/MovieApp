@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Movies from "./components/Movies";
 import Navbar from "./components/Navbar";
 import TvShows from "./components/TvShows";
@@ -21,7 +21,6 @@ function App() {
         <Navbar />
         <Routes>
           {/* DEFAULT ROUTE */}
-          <Route path="/MovieApp" element={<Navigate replace to="/" />} />
           <Route path="/" element={<Movies />} />
           <Route path="/TvShows" element={<TvShows />} />
           <Route path="/Trending" element={<Trending />} />

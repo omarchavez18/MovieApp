@@ -1,10 +1,68 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/47d6c8c7-2cf7-4d06-8958-569365b46010/deploy-status)](https://app.netlify.com/sites/moviesapptmdb/deploys)
-# Getting Started with Create React App
+# Movies React App
 
+>Front end of Movies app using React.
+
+
+## Live Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47d6c8c7-2cf7-4d06-8958-569365b46010/deploy-status)](https://app.netlify.com/sites/moviesapptmdb/deploys)
 
 To see the MoviesApp webpage click in the next link
 [MoviesApp](https://moviesapptmdb.netlify.app)
 
+
+## Sneak peak
+![Captura de pantalla 2023-04-11 221808](https://user-images.githubusercontent.com/84557440/231353070-a5a893b2-bf67-4c3c-8cb4-f66e08907524.png)
+![moviesAppTrailer](https://user-images.githubusercontent.com/84557440/231353161-3abe821d-c474-4fee-ac58-159d46a60695.png)
+![moviesAppPricing](https://user-images.githubusercontent.com/84557440/231353168-b2093706-b2bf-4da2-ae92-e25bc9fae389.png)
+![moviesAppResponsive](https://user-images.githubusercontent.com/84557440/231353170-5ee24b93-9377-42cd-9269-f772f2b555e5.png)
+
+## Built With
+
+- HTML
+- CSS - RESPONSIVELY
+- JAVASCRIPT
+- REACT
+- REACT-DOM
+- CREATE-REACT-APP
+- REACT-ROUTER
+- MOVIE-TRAILER
+- REACT-PLAYER
+- AXIOS
+- NPM
+
+### Description
+
+    Front end of Movies App using React.
+    
+    Movies app is an application that helps us search for movies, series, and trends, it has a search engine to access our
+    favorite movie or series and shows us the trailers of the selected ones.
+
+    Thank you for using Movies App!
+
+
+
+## Prerequisites
+
+  - Internet Connection
+  - Web Browser
+  - Code Editor 
+  - Node Package Manager (NPM)
+  
+
+👤 &nbsp; **Omar Chávez**
+
+- LinkedIn: [omarchavezgdv](https://www.linkedin.com/in/omarchavezgdv/)
+- GitHub: [@omarchavez18](https://github.com/omarchavez18)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
+
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -32,6 +90,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+
+
+
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 

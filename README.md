@@ -16,6 +16,8 @@ To see the MoviesApp webpage click in the next link
 ![moviesAppPricing](https://user-images.githubusercontent.com/84557440/231353168-b2093706-b2bf-4da2-ae92-e25bc9fae389.png)
 ![moviesAppResponsive](https://user-images.githubusercontent.com/84557440/231353170-5ee24b93-9377-42cd-9269-f772f2b555e5.png)
 
+
+
 ## Built With
 
 - HTML
